@@ -38,16 +38,16 @@ namespace first_asiment
             #region Q3
             // Create an instance of a reference type (class)
             Console.WriteLine("--------Before-------");
-            point p1 = new point ();
+            point p1 = new point();
             Console.WriteLine(p1.GetHashCode());
-            point P2= new point();
+            point P2 = new point();
             Console.WriteLine(P2.GetHashCode());
 
             Console.WriteLine("--------After-------");
-            P2=p1 ;
+            P2 = p1;
             Console.WriteLine(p1.GetHashCode());
             Console.WriteLine(P2.GetHashCode());
-            
+
 
 
 
